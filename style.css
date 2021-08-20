@@ -43,30 +43,55 @@
     background-color: crimson;
 }
 /* .........button...... */
-.btn-section{
-    margin: 30px;
-    margin-left: 150px;
-}
-.btn, a {
-    padding: 8px;
-    border-radius: 4px;
-    color: white;
-}
-a:active {
-    background-color: rgb(83, 83, 255);
+
+
+
+
+button {
+    padding: 0.5rem 0.625rem;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #00006d;
   }
-.buy, .ok, .dlt, .google :hover{
-    cursor: pointer;
-}
-
-
-/* overflow buttons */
-.overflowing {
-    width: 77px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.btn-section{
-    margin-bottom: 10px;
-}
+  .primary {
+    background-color: navy;
+    color: white;
+  }
+  .primary:hover {
+    background-color: #6666ff;
+    color: white;
+  }
+  .primary:active {
+    background-color: navy;
+    color: white;
+  }
+  
+  .secondary {
+    background-color: olive;
+    color: white;
+  }
+  .secondary:hover {
+    background-color: #b3b300;
+    color: white;
+  }
+  .secondary:active {
+    background-color: olive;
+    color: white;
+  }
+  .error {
+    background-color: crimson;
+    color: white;
+  }
+  .error:hover {
+    background-color: #ee4466;
+    color: white;
+  }
+  .error:active {
+    background-color: crimson;
+    color: white;
+  }
+  
+  .google {
+    text-decoration: none;
+    color: white;
+  }
